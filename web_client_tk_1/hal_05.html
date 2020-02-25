@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="keterangan">
+  <title>Document</title>
+  <style>
+    /* * {
+      border: 1px solid green ;
+    } */
+    * {
+      box-sizing: border-box;
+    }
+    #container {
+      width: 600px;
+      background-color: greenyellow;
+      margin: auto;
+    }
+    #header {
+      height: 70px;
+      background-color: hotpink;
+    }
+    #tengah{
+      height:250px;
+      background-color: khaki;
+    }
+    #kiri{
+      background-color: lightblue;
+      width: 200px;
+      height: 100%;
+      float: left;
+    }
+    #main {
+      background-color: lightslategray;
+      width: 300px;
+      height:100%;
+      float: left;
+      padding: 10px;
+      overflow: scroll;
+    }
+    #kanan{
+      background-color: lightblue;
+      width: 100px;
+      height: 100%;
+      float: left;
+    }
+    #footer{
+      height:100px;
+    }
+    #kiri > a {
+      display: block;
+      background-color: maroon;
+      color: white;
+      padding: 10px;
+    }
+    #kiri > a:hover{
+      color: maroon;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="header">HEADER</div>
+    <div id="tengah">
+      <div id="kiri">
+        <a href="">Menu 1</a>
+        <a href="">Menu 2</a>
+        <a href="">Menu 3</a>
+      </div>
+      <div id="main">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt adipisci nisi quae assumenda. Facilis consequuntur nostrum soluta ullam repudiandae! Tenetur illum beatae saepe. Eveniet saepe odit laborum suscipit inventore ipsam nisi molestiae possimus maiores voluptatem aspernatur laudantium, doloribus dolor iure ab quam quisquam voluptate numquam nostrum ut? Aperiam, odio placeat.</p>
+        <p>At aspernatur optio unde eos ea provident! Perspiciatis voluptates vel quod blanditiis id eligendi fuga incidunt, inventore magni reprehenderit dolore error similique vitae vero voluptatem. Ea accusantium mollitia optio expedita debitis, provident quo adipisci sequi porro non nihil rem illum quos magnam atque omnis velit asperiores ex doloremque ad modi.</p>
+        <p>Optio, aspernatur doloribus facilis molestias iste totam nulla voluptatum aliquid cumque animi quis nostrum placeat harum saepe maiores nesciunt ullam est! Quaerat eos nemo ut, molestias eligendi quod molestiae dignissimos unde minima autem incidunt necessitatibus porro tempore voluptatem quidem ipsam deleniti. Possimus quo tempore sed sit facere molestias nisi reiciendis!</p>
+      </div>
+      <div id="kanan">Side Bar Kanan</div>
+    </div>
+    <div id="footer">FOOTER</div>
+  </div>
+</body>
+</html>

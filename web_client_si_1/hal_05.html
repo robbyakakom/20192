@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* * {
+      border: 1px solid green; 
+    } */
+    #container {
+      width: 600px;
+      margin: auto;
+      background-color: aqua;
+    }
+    #header {
+      background-color: bisque;
+      height: 100px;
+    }
+    #tengah{
+      height: 500px;
+    }
+    #kiri {
+      background-color: burlywood;
+      width: 100px;
+      height: 100%;
+      float: left;
+    }
+    #main {
+      background-color:coral;
+      width: 400px;
+      height: 100%;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    #kanan {
+      background-color: burlywood;
+      width: 100px;
+      height: 100%;
+      float: left;
+    }
+    #footer{
+      height: 150px;
+    }
+    #kiri > a {
+      display: block;
+      background-color: darkblue;
+      color:white;
+      padding: 10px;
+    }
+    #kiri > a:hover{
+      background-color: white;
+      color:darkblue;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="header">HEADER</div>
+    <div id="tengah">
+      <div id="kiri">
+        <a href="">Link 1</a>
+        <a href="">Link 2</a>
+        <a href="">Link 3</a>
+      </div>
+      <div id="main">
+        <h1>Judul Artikel</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam deleniti alias laboriosam itaque ab ad adipisci nostrum beatae, reiciendis blanditiis quos quia quod totam. Blanditiis nostrum reprehenderit provident porro dicta.</p>
+        <p>Aperiam nisi eius perspiciatis consectetur necessitatibus rem iure? Corporis atque laboriosam illum necessitatibus maxime sed error magnam deleniti mollitia, aperiam impedit dolorum sit ducimus facere quae reprehenderit maiores! Ipsa, quaerat!</p>
+        <p>Corporis, cum? In sit tempore porro fugit vitae hic nesciunt sunt. Voluptatum neque voluptatibus nam quibusdam voluptas ipsa magnam harum labore tempore architecto totam soluta voluptate, cumque nihil, deleniti quas.</p>
+      </div>
+      <div id="kanan">KANAN</div>
+    </div>
+    <div id="footer">FOOTER</div>
+  </div>
+</body>
+</html>
