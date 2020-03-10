@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <form action="hasil.php" method="post">
+    <h2>Bentuk Element-elemnt Form</h2>
+
+    <label for="input_text">INPUT TEXT</label>
+    <input type="text" name="input_text" id="input_text" size="50" maxlength="50" value="isi awal" placeholder="petunjuk isian data" readonly>
+
+    <br>
+    <label for="input_radio">INPUT RADIO</label>
+    <input type="radio" name="jkel" id="pilihan_1" value="Pilihan 1"> <label for="pilihan_1">Laki-laki</label>
+    <input type="radio" name="jkel" id="pilihan_2" value="Pilihan 2"> <label for="pilihan_2">Perempuan</label>
+
+    <br>
+    <label for="pilih_cek">INPUT CEK</label>
+    <input type="checkbox" name="pilih[]" id="cek_1" value="Isi cek 1"> <label for="cek_1">Memilih Cek 1</label>
+    <input type="checkbox" name="pilih[]" id="cek_2" value="Isi cek 2"> <label for="cek_2">Memilih Cek 2</label>
+    <input type="checkbox" name="pilih[]" id="cek_3" value="Isi cek 3"> <label for="cek_3">Memilih Cek 3</label>
+
+
+    <br>
+    <label for="pilihan_select">PILIHAN SELECT</label>
+    <select name="pilihan_select" id="pilihan_select">
+      <option value="opsi 1">Opsi Pilihan 1</option>
+      <option value="opsi 2">Opsi Pilihan 2</option>
+      <option value="opsi 3">Opsi Pilihan 3</option>
+    </select>
+
+    <br>
+    <label for="textarea">INPUT TEXTAREA</label>
+    <textarea name="paragraph" id="textarea" cols="50" rows="3"></textarea>
+
+
+    <hr>
+    <button type="submit">SIMPAN</button>
+    <button type="reset">BATAL</button>
+
+  </form>
+
+</body>
+</html>

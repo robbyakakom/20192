@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="tujuan.php" method="POST">
+    <label for="input_text">INPUT TEXT</label> 
+    <input type="text" name="input_text" id="input_text" size="50" maxlength="10" placeholder="tampilan panduan isi data" title="tool tips" style="background-color: orange;">
+
+    <br>
+    <label for="input_password">INPUT PASSWORD</label>
+    <input type="password" name="input_password" id="input_password" size="50">
+    <br>
+
+    <label for="pilih_satu">PILIH SATU</label> 
+    <input type="radio" name="pilih" id="pilih_A" value="pilih A"> <label for="pilih_A">PILIH A</label> 
+    <input type="radio" name="pilih" id="pilih_B" value="pilih B"> <label for="pilih_B">PILIH B</label> 
+    <input type="radio" name="pilih" id="pilih_C" value="pilih C"> <label for="pilih_C">PILIH C</label> <br>
+
+    <label for="pilih_banyak">PILIH BANYAK</label>
+    <input type="checkbox" name="cek[]" id="cek_1" value="CEK 1"> <label for="cek_1">CEK SATU</label>
+    <input type="checkbox" name="cek[]" id="cek_2" value="CEK 2"> <label for="cek_2">CEK DUA</label>
+
+    <br>
+    <label for="paragarap">INPUT TEXT PANJANG</label> 
+    <textarea name="paragarap" id="paragarap" cols="60" rows="3"></textarea>
+
+    <br>
+    <label for="pilihan_select">PILIHAN SELECT</label>
+    <select name="pilihan_select" id="pilihan_select">
+      <option value="">Silahkan Pilih</option>
+      <option value="isi pilihan select 1">Opsi 1</option>
+      <option value="isi pilihan select 2">Opsi 2</option>
+      <option value="isi pilihan select 2">Opsi 3</option>
+    </select>
+
+    <br>
+    <label for="file_upload">UPLOAD</label>
+    <input type="file" name="file_upload" id="file_upload">
+    <hr>
+
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+
+  </form>
+</body>
+</html>
